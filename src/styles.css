@@ -55,6 +55,14 @@ nav a{
 
 }
 
+nav a:hover{
+
+color:white;
+font-weight: bold;
+
+}
+
+
 .dinosaurType{
 
     display: flex;
@@ -132,8 +140,8 @@ nav a{
 
 .dinos img{
 
-    max-width: 150px;
-    max-height: 150px;
+    max-width: 250px;
+    max-height: 250px;
 
 }
 
@@ -150,6 +158,24 @@ nav a{
     margin: 0px;
 
 }
+
+.facts a{
+
+    text-decoration: none;
+    color: rgb(0, 65, 0);
+    margin:20px;
+    padding:15px;
+    font-size: 30px;
+
+}
+
+.facts a:hover{
+
+background-color: rgb(255, 255, 255);
+border-radius: 100px;
+
+}
+
 
 footer{
 

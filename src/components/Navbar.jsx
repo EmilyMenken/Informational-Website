@@ -4,6 +4,9 @@ export default function Navbar() {
 
   return (
     <header>
+
+      <p id="topOfPage"></p>
+
     <nav>
 
       <div className="topOfNav">

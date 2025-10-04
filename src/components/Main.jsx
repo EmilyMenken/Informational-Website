@@ -10,6 +10,10 @@ import oviImg from "../assets/oviraptor.jpg";
 import trooImg from "../assets/troodon.jpg";
 import ornImg from "../assets/ornithomimus.jpg";
 
+import therImg from "../assets/therizinosaurus.jpg";
+import kentImg from "../assets/kentrosaurus.jpg";
+import iguaImg from "../assets/iguanodon.jpg";
+
 
 export default function Main() {
 
@@ -34,7 +38,7 @@ export default function Main() {
       <h4>Sharp-Toothed Lizard</h4>
       <p className="factParagraph">The Carcharodontosaurus is named after the genus Carcharodon, which means sharp, or jagged toothed. 
         Some sharks, such as the Great White Shark are from this genus (Carcharodon carcharias), which is why Carcharodontosaurus is sometimes called the Shark-Toothed lizard. 
-        Although it's brain was average size for non-avian reptiles, it had a large optic nerve and it's inner ear is built like that of modern reptiles, rather than birds like most other theropods.
+        Although its brain was average size for non-avian reptiles, it had a large optic nerve and its inner ear is built like that of modern reptiles, rather than birds like most other theropods.
         It's been estimated to reach about 13.3 meters (44 ft) in length and weigh about 15.1 metric tons. </p>
 
     </div>
@@ -43,9 +47,9 @@ export default function Main() {
 
       <img src={gigaImg} alt="an illustration of Giganotosaurus" />
       <h3>Giganotosaurus</h3>
-      <h5>“JIG-a-no-toe-saurus”</h5>
+      <h5>“JIG-a-no-toe-SOR-us”</h5>
       <h4>Giant Southern Lizard</h4>
-      <p className="factParagraph">The Giganotosaurus had crests above each eye, along with small elongated neural spines from it's neck to it's tail.
+      <p className="factParagraph">The Giganotosaurus had crests above each eye, along with small elongated neural spines from its neck to its tail.
         It has been described as a larger version of Allosaurus mostly due to it having a similar build, though they are part of the same broad Allosauroidea superfamily. 
         It had a fairly light weight build as it was built more for speed than strength when compared to other large theropods.
         It's been estimated to reach about 12.5 meters (41 feet) in length and weigh about 6-8 metric tons. </p>
@@ -59,12 +63,14 @@ export default function Main() {
       <h5>“DYE-noh-nye-kus”</h5>
       <h4>Terrible Claw</h4>
       <p className="factParagraph"> The Deinonychus is a raptor, like its relative Velociraptor, although it was a bit bigger.
-        It's part of the Dromaeosauridae family, which means running lizards.
-        Although its not confirmed for this specific species, it most likely had feathers. This is due to the fact that dinosaurs it was related to, like Velociraptor, had them.
-        It's name means terrible claw, but it is thought to have also used it's stocky, robust skull along with it's sickle claw when hunting.
+        It is part of the Dromaeosauridae family, which means running lizards.
+        Although it's not confirmed for this specific species, it most likely had feathers. This is due to the fact that dinosaurs it was related to, like Velociraptor, had them.
+        Its name means terrible claw, but it is thought to have also used its stocky, robust skull along with its sickle claw when hunting.
         It's been estimated to reach about 3.3-3.4 meters (10.8-11.2 ft) in length and weigh about 100 kg (220 lb). </p>
 
     </div>
+
+      <p><a href="#topOfPage">🔝</a></p>
 
 
     </section>
@@ -87,11 +93,12 @@ export default function Main() {
       <h3>Oviraptor</h3>
       <h5>“OH-vee-RAP-tor”</h5>
       <h4>Egg Thief</h4>
-      <p className="factParagraph">The Oviraptor, despite it's name meaning egg thief, was only named that as a fossil had been found on a nest of eggs. 
-        Further research revealed that the eggs were actually it's own, meaning the dinosaur had most likely died protecting it's eggs. 
+      <p className="factParagraph">The Oviraptor, despite its name meaning egg thief, was only named that as a fossil had been found on a nest of eggs. 
+        Further research revealed that the eggs were actually its own, meaning the dinosaur had most likely died protecting its eggs. 
         There have been multiple other fossils also finding Oviraptor on, or near eggs or juvenile Oviraptors.
         Oviraptor had long hindlimbs with 4 toes on each foot, developed arms with curved claws, was covered in feathers, a large beak on its skull and possibly crests as well. 
-        Its been estimated to reach about 1.6-2 meters (5.2-6.6 ft) in length and weigh about 33-40 kg (73-88 lb). </p>
+        It's been estimated to reach about 1.6-2 meters (5.2-6.6 ft) in length and weigh about 33-40 kg (73-88 lb). </p>
+    
     </div>
 
     <div className="dinos">
@@ -102,9 +109,10 @@ export default function Main() {
       <h4>Wounding Tooth</h4>
       <p className="factParagraph">The Troodon was discovered all the way back in 1855, though it was thought to be a lizard until 1877. 
         Its teeth are serrated but also very fine, the fineness of the teeth being similar to herbivorous dinosaurs. 
-        Troodon also had one of the largest brain to body ratio amongst dinosaurs, it's brain being being about 0.05% of it's body weight compared to other dinosaurs which only had a ratio of about 0.01-0.03%.
+        Troodon also had one of the largest brain to body ratio amongst dinosaurs, its brain being about 0.05% of its body weight compared to other dinosaurs which only had a ratio of about 0.01-0.03%.
         Troodon had communal nesting, where multiple individuals would all lay eggs together in a single nest- like ostriches.
-        Its been estimated to reach about 2 meters (6.5 ft) in length and weigh about 50 kg(110 lb). </p>
+        It's been estimated to reach about 2 meters (6.5 ft) in length and weigh about 50 kg (110 lb). </p>
+   
     </div>
 
     <div className="dinos">
@@ -118,8 +126,10 @@ export default function Main() {
         It likely didn't have any feathers on its legs, as a skin impression shows it was fairly close to an ostrich in feather placement.
         It is thought that it used the feathers on it's arms as a mating display.
         Its been estimated to reach about 3.8 meters (12 ft) in length and weigh about 170 kg (370 lb).</p>
+    
     </div>
 
+      <p><a href="#topOfPage">🔝</a></p>
 
     </section>
 
@@ -135,31 +145,56 @@ export default function Main() {
     <section className="facts">
 
     <div className="dinos">
+
+      <img src={therImg} alt="an illustration of Therizinosaurus" /> 
       <h3>Therizinosaurus</h3>
-      <h5>pronounce</h5>
+      <h5>“theh-RIH-zin-oh-SOR-us”</h5>
       <h4>Scythe Lizard</h4>
-      <p className="factParagraph">The Therizinosaurus get its name from the claws on its forelimbs, which were 50 cm (20 in) in length- the longest of any land animal.
+      <p className="factParagraph">The Therizinosaurus gets its name from the claws on its forelimbs, which were 50 cm (20 in) in length- the longest of any land animal.
         The claws are only curved at the ends, and due to its long neck and beak it was most certainly an herbivore despite the menacing claws.
-        It was bipedal, and to help with its large body it had a very robust tibia, with around 3 meter (9.8 ft) length legs. 
-        Its forearms were longer than the average human is tall, 
-        Its been estimated to reach about 9-10 meters (30-33 ft) in length and weigh about 6.6 tons or more.
-      </p>
+        It was bipedal, and to help with its large body it had a very robust tibia, with around 3 meter (9.8 ft) long legs. 
+        It stood 4-5 meters (13-16 ft) tall, and its arms were longer than the average human is tall, reaching 2.4 meters (7.9 ft) long. 
+        The more commonly used translation of its name is Scythe Lizard, but it can also be translated to Reaper Lizard.
+        It's been estimated to reach about 9-10 meters (30-33 ft) in length and weigh about 6.6 tons or more. </p>
+    
     </div>
       
+
     <div className="dinos">
-      <h3>dino</h3>
-      <h5>pronounce</h5>
-      <h4>translations</h4>
-      <p className="factParagraph">facts</p>
+
+      <img src={kentImg} alt="an illustration of Kentrosaurus" /> 
+      <h3>Kentrosaurus</h3>
+      <h5>“KEN-troh-SOR-us”</h5>
+      <h4>Spiked Lizard</h4>
+      <p className="factParagraph">The Kentrosaurus had osteoderms all over its body, along with various spikes along its spine.
+        The spikes along its back were very long, reaching around 731 mm (28.78 in) in length- and thats just the bone core of the spike. 
+        It is believed that the spikes were covered in keratin, possibly making them even longer.
+        It had a thagomizer, which is the name of the spikes at the end of its tail. 
+        The thagomizer was a very efficient weapon, the Kentrosaurus could swing its thagomizer 180 degrees with speeds estimated at 50 km/h (31.06 mi/h).
+        Its name more literally translates to Prickle Lizard, but Spiked Lizard is a more natural translation. 
+        It's been estimated to reach about 4-4.5 meters (13-15 ft) in length and weigh about 700-1,600 kg (1,500-3,500 lb).</p>
+    
     </div>
       
+      
     <div className="dinos">
-      <h3>dino</h3>
-      <h5>pronounce</h5>
-      <h4>translations</h4>
-      <p className="factParagraph">facts</p>
+
+      <img src={iguaImg} alt="an illustration of Iguanodon" /> 
+      <h3>Iguanodon</h3>
+      <h5>“ih-GWAH-nuh-don”</h5>
+      <h4>Iguana Tooth</h4>
+      <p className="factParagraph"> The Iguanodon gets its name from its teeth. 
+        As when a fossilized tooth was found in the 1800s, the people who found it noted it looked like a large iguana tooth (about 20 times larger than that of a regular iguana).
+        Its teeth are also closer together than normal iguana teeth. 
+        The Iguanodon had large spikes on its thumbs, which were thought to either be used for self defense or foraging for food.
+        When it was in the early years of being discovered, researchers thought that the spikes on its thumbs was a horn on its nose.
+        Iguanodon walked on all fours as due to its tail being built so stiffly, if it were to stand straight on two legs it would have to break its tail to do so.
+        They could lift their forearms a little in order to use their thumb spikes, but it is thought that as the Iguanodon grew older it would be harder and harder for it to do so.
+        It's been estimated to reach about 9-11 meters (30-36 ft) in length and weigh about 3.8-4.5 metric tons.</p>
+
     </div>
 
+      <p><a href="#topOfPage">🔝</a></p>
 
     </section>
 
